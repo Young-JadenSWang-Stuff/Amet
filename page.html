@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="layout.css" />
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="topbar">
+            A.
+        </div>
+
+        <div class="bodyTitle">
+            Amet.
+        </div>
+
+        <div class="bodyParagraph">
+            Lorem ipsum dolar amet bicycle rights shabby chic normcore, stumptown williamsburg coloring book bespokoe tumeric hall of
+            hot chicken. Kickstarter trust fund squid raclettee blue bottle chartreuse. Mediation readymade narwhal try-hard
+            heirloom. Cred polaroid succulents intelligentsia disrupt blog truffout sustainable DIY pork belly shareditch
+            VHS PBR&B. Craft beer mixtape tbh DIY salvia pabst chai flannel taxidermy.
+        </div>
+    </div>
+
+    <div class="menuBtn">
+        <span style="font-size:30px; cursor:pointer" onclick="openNav()">Menu&nbsp;&#9776;</span>
+    </div>
+
+    <div id="menu" class="overlay">
+        <div class="menuBtn">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">Menu&nbsp;&times;</a>
+        </div>
+
+        <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Buy</a>
+        </div>
+    </div>
+    
+    <script>
+        /* Open */
+        function openNav() {
+            document.getElementById("menu").style.height = "100%";
+        }
+
+        /* Close */
+        function closeNav() {
+            document.getElementById("menu").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
